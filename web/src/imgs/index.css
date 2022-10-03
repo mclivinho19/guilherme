@@ -1,76 +1,62 @@
-:root{ 
-    --principal: rgb(105, 6, 23);
-    --secundario: black; 
-}
-
-*{   
+*{
     margin: 0px;
-   border: 0px; 
     padding: 0px;
-    font-family: 'Playfair Display', serif;
-    color: black;
-
+    border: 0px;
 }
 
-header {
+p{
+    margin: 12px;
+}
+
+
+header{
+    height: 400px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: var(--principal);
- } 
- 
- header{
-    margin: 20px;
+    justify-content: space-evenly ;
+    background-color: green;
+}
+ img#a{
+    width:200px;
+    border-radius: 100%;
+    
  }
 
-header img{
-    border-right: 50px;
+img#hero{
+    width: 40%;
+    border-radius: 50%;
+
 }
+h1#hero{
+    color: blue;
+    font-size: 40px;
+    font-family: 'Aboreto', cursive;
 
-header section{ 
-    text-align: center;
-} 
-
-img#HERO{
-    width: 200px;
-    margin: 10px 0px 10px 0px;
 }
 
 nav{
-    background-color: var(--principal);
+
+    background-color: aliceblue;
 }
 
-nav ul{
-    list-style: none;
+ul{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    list-style: none;
+
 }
 
-nav ul li{
-    width: 100px;
-    height: 40px;
-    display: files;
-align-items: center;
-justify-content: space-evenly;
-}
+li{
+    font-size: 30px;
+    text-decoration: none;
+    color: blue;
+    width: 100%;
+    background-color: yellow;
 
-nav ul li hover{
-    background-color: ver(--secundario);
 }
-
-nav ul li a{
-text-decoration: none;
-font-weight: bolder;
-color: black;
+li a:hover{
+    color: rgb(8, 2, 95);
 }
-
-nav ul li a:hover{
-    color: white;
-}
-
-main{
-    width: 100px;
-    height: 100px;
-    background-color:green;
+h4{
+    font-family: 'Source Serif Pro', serif;
 }
