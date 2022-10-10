@@ -69,5 +69,12 @@ img#dori{
      float: right;
     }
     .but{
+        height: 400px;
+        display: flex;
+        align-items: center;
         
+    }
+    img#doli{
+        width: 30%;
+        float: right;
     }
