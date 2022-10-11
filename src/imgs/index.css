@@ -51,21 +51,21 @@ li{
     text-decoration: none;
     color: blue;
     width: 100%;
-    background-color: yellow;
+    background-color: rgb(216, 216, 12);
 
 }
 li a:hover{
-    color: rgb(8, 2, 95);
+color: aliceblue;
 }
 h4{
     font-family: 'Source Serif Pro', serif;
 }
 img#mand{
- width: 20%;
+ width: 14%;
  float: right; 
 }
 img#dori{
-    width: 50%;
+    width: 35%;
      float: right;
     }
     .but{
@@ -76,5 +76,5 @@ img#dori{
     }
     img#doli{
         width: 30%;
-        float: right;
+        float: revert;
     }
